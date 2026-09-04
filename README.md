@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BioRxiv Venture Intelligence
 
 An automated data pipeline and exploratory analysis tool built to ingest, store, and analyze scientific preprint metadata from the live bioRxiv API.
@@ -15,3 +16,6 @@ An automated data pipeline and exploratory analysis tool built to ingest, store,
 - Language: Python 3.13
 - Libraries: Pandas, Requests, BeautifulSoup4
 - Environment: VS Code, Jupyter Notebooks
+=======
+# biorxiv-venture-intelligence
+>>>>>>> 5c41ab3bb962a665e0314dbe029c913a11f807be
