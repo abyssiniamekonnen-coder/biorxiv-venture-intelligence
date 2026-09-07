@@ -1,0 +1,112 @@
+{
+    "timestamp": "2026-09-07T10:04:42.218352+00:00",
+    "pathway": "violacein_biosynthesis",
+    "parameters": {
+        "vmax": 100.0,
+        "km": 15.0,
+        "yield_threshold": 50.0,
+        "max_substrate_input": 100.0
+    },
+    "summary": {
+        "total_configurations_tested": 12,
+        "viable_scaleup_configurations": 5
+    },
+    "results": [
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 10.0,
+            "flux_rate": 0.5,
+            "conversion_efficiency": 0.4,
+            "simulated_yield": 20.0,
+            "viable_for_scaleup": false
+        },
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 10.0,
+            "flux_rate": 0.75,
+            "conversion_efficiency": 0.4,
+            "simulated_yield": 30.0,
+            "viable_for_scaleup": false
+        },
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 10.0,
+            "flux_rate": 0.9,
+            "conversion_efficiency": 0.4,
+            "simulated_yield": 36.0,
+            "viable_for_scaleup": false
+        },
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 25.0,
+            "flux_rate": 0.5,
+            "conversion_efficiency": 0.625,
+            "simulated_yield": 31.25,
+            "viable_for_scaleup": false
+        },
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 25.0,
+            "flux_rate": 0.75,
+            "conversion_efficiency": 0.625,
+            "simulated_yield": 46.88,
+            "viable_for_scaleup": false
+        },
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 25.0,
+            "flux_rate": 0.9,
+            "conversion_efficiency": 0.625,
+            "simulated_yield": 56.25,
+            "viable_for_scaleup": true
+        },
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 50.0,
+            "flux_rate": 0.5,
+            "conversion_efficiency": 0.7692,
+            "simulated_yield": 38.46,
+            "viable_for_scaleup": false
+        },
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 50.0,
+            "flux_rate": 0.75,
+            "conversion_efficiency": 0.7692,
+            "simulated_yield": 57.69,
+            "viable_for_scaleup": true
+        },
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 50.0,
+            "flux_rate": 0.9,
+            "conversion_efficiency": 0.7692,
+            "simulated_yield": 69.23,
+            "viable_for_scaleup": true
+        },
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 100.0,
+            "flux_rate": 0.5,
+            "conversion_efficiency": 0.8696,
+            "simulated_yield": 43.48,
+            "viable_for_scaleup": false
+        },
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 100.0,
+            "flux_rate": 0.75,
+            "conversion_efficiency": 0.8696,
+            "simulated_yield": 65.22,
+            "viable_for_scaleup": true
+        },
+        {
+            "pathway": "violacein_biosynthesis",
+            "substrate_concentration": 100.0,
+            "flux_rate": 0.9,
+            "conversion_efficiency": 0.8696,
+            "simulated_yield": 78.26,
+            "viable_for_scaleup": true
+        }
+    ]
+}
