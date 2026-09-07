@@ -1,6 +1,6 @@
 {
-    "timestamp": "2026-09-07T10:04:42.218352+00:00",
-    "pathway": "violacein_biosynthesis",
+    "timestamp": "2026-09-07T10:29:44.777832+00:00",
+    "pathway": "novel_analog_alpha",
     "parameters": {
         "vmax": 100.0,
         "km": 15.0,
@@ -13,7 +13,7 @@
     },
     "results": [
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 10.0,
             "flux_rate": 0.5,
             "conversion_efficiency": 0.4,
@@ -21,7 +21,7 @@
             "viable_for_scaleup": false
         },
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 10.0,
             "flux_rate": 0.75,
             "conversion_efficiency": 0.4,
@@ -29,7 +29,7 @@
             "viable_for_scaleup": false
         },
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 10.0,
             "flux_rate": 0.9,
             "conversion_efficiency": 0.4,
@@ -37,7 +37,7 @@
             "viable_for_scaleup": false
         },
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 25.0,
             "flux_rate": 0.5,
             "conversion_efficiency": 0.625,
@@ -45,7 +45,7 @@
             "viable_for_scaleup": false
         },
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 25.0,
             "flux_rate": 0.75,
             "conversion_efficiency": 0.625,
@@ -53,7 +53,7 @@
             "viable_for_scaleup": false
         },
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 25.0,
             "flux_rate": 0.9,
             "conversion_efficiency": 0.625,
@@ -61,7 +61,7 @@
             "viable_for_scaleup": true
         },
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 50.0,
             "flux_rate": 0.5,
             "conversion_efficiency": 0.7692,
@@ -69,7 +69,7 @@
             "viable_for_scaleup": false
         },
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 50.0,
             "flux_rate": 0.75,
             "conversion_efficiency": 0.7692,
@@ -77,7 +77,7 @@
             "viable_for_scaleup": true
         },
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 50.0,
             "flux_rate": 0.9,
             "conversion_efficiency": 0.7692,
@@ -85,7 +85,7 @@
             "viable_for_scaleup": true
         },
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 100.0,
             "flux_rate": 0.5,
             "conversion_efficiency": 0.8696,
@@ -93,7 +93,7 @@
             "viable_for_scaleup": false
         },
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 100.0,
             "flux_rate": 0.75,
             "conversion_efficiency": 0.8696,
@@ -101,7 +101,7 @@
             "viable_for_scaleup": true
         },
         {
-            "pathway": "violacein_biosynthesis",
+            "pathway": "novel_analog_alpha",
             "substrate_concentration": 100.0,
             "flux_rate": 0.9,
             "conversion_efficiency": 0.8696,

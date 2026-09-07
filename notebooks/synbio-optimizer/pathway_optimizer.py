@@ -70,11 +70,42 @@ class MetabolicPathwayOptimizer:
         print(f"[+] Optimization report successfully exported to {filename} 📊")
 
 if __name__ == "__main__":
+    import sys
+    from pathlib import Path
+
+    # 1. Dynamically import Pharma-Agent Orchestrator
+    pharma_path = Path(__file__).resolve().parent.parent / "pharma-agent-core"
+    sys.path.append(str(pharma_path))
+
+    try:
+        from agent_orchestrator import AgentOrchestrator
+
+        print("=== Step 1: Generating Molecular Candidates ===")
+        orchestrator = AgentOrchestrator()
+        targets = list(orchestrator.generator.scaffolds.keys())
+
+        passed_targets = []
+        for target in targets:
+            candidate = orchestrator.generator.generate_candidate(target)
+            eval_result = orchestrator.evaluator.evaluate_molecule(candidate)
+            if eval_result.get("passes_adme_tox", False):
+                passed_targets.append(target)
+
+        print(f"[+] Approved targets for biosyn pathway design: {passed_targets}\n")
+    except ImportError:
+        print("[!] Pharma-Agent core not found, running with default targets.")
+        passed_targets = ["violacein_biosynthesis"]
+
+    # 2. Run SynBio Metabolic Optimization on Approved Targets
+    print("=== Step 2: Optimizing Metabolic Pathways ===")
     optimizer = MetabolicPathwayOptimizer()
-    
-    # Define experimental parameter space ⚙️
     concentrations = [10.0, 25.0, 50.0, 100.0]
     flux_rates = [0.5, 0.75, 0.9]
-    
-    report_data = optimizer.execute_full_pipeline("violacein_biosynthesis", concentrations, flux_rates)
-    optimizer.save_report_to_json(report_data)
+
+    for target in passed_targets:
+        report_data = optimizer.execute_full_pipeline(
+            target,
+            concentrations,
+            flux_rates
+        )
+        optimizer.save_report_to_json(report_data)
